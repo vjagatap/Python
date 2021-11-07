@@ -1,0 +1,24 @@
+a = "welcome*to#python&world!keep_learning^everyday"
+
+print(a[20]) //r
+print(a[-16]) //e
+print(a[21]) //l
+print(a[-15]) //a
+print(a[23]) //!
+print(a[-13]) //n
+print(a[31]) //a
+print(a[-5]) //r
+print(a[22]) //d
+print(a[-14]) //r
+print(a[30]) //e
+print(a[-6]) //e
+print(a[11]) //p
+print(a[-25]) //l
+
+calculate neg and pos index for below values
+
+*  // 7 and -39
+p // 11 and-35
+&  // 17 and -29
+^  // 37 and -9
+%  // Error
