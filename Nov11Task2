@@ -1,0 +1,37 @@
+Task2:
+    
+Get two strings from user  example: 
+    "java" "groovy" ==> java6groovy4
+   
+   "pi" "mathematics"  ===> pi15mathematics2
+   
+   
+ Code:
+   
+   
+x= input("Enter the String1:\n")
+a= len(x)
+y=input("Enter the String2:\n")
+b= len(y)
+
+print("Result of String is {}{}{}{}".format(x,b,y,a))
+
+
+   
+ Output:
+ 
+ 
+====== RESTART: C:/Desktop to Laptop data/Python Software/12thNovTask2.py ======
+Enter the String1:
+java
+Enter the String2:
+groovy
+Result of String is java6groovy4
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/12thNovTask2.py ======
+Enter the String1:
+pi
+Enter the String2:
+mathematics
+Result of String is pi11mathematics2
+>>>
