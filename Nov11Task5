@@ -1,0 +1,16 @@
+Task5:
+swapcase
+
+Code:
+
+a=input()
+b=a.swapcase()
+print(b)
+
+Output:
+
+====== RESTART: C:/Desktop to Laptop data/Python Software/11thNovTask5.py ======
+HeLlo
+hElLO
+>>> 
+    
