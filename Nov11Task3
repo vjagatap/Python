@@ -1,0 +1,34 @@
+Task3:
+    
+    Get one string from user
+    
+    a = "computer"
+    
+    convert middle character to upper case
+    
+    a = "computer" ==> compUter
+    groovyy ==> groOvyy
+    
+    
+    
+
+Code:
+    
+a = input("Enter the string:\n")
+mid = int(len(a)/2)
+print(a[:mid]+ a[mid].upper()+ a[mid+1:])   
+    
+
+
+Output:
+ 
+====== RESTART: C:/Desktop to Laptop data/Python Software/11thNovTask3.py ======
+Enter the string:
+computer
+compUter
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/11thNovTask3.py ======
+Enter the string:
+groovy
+groOvy
+>>> 
