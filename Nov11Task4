@@ -1,0 +1,15 @@
+Task4:
+    
+    what's your name ==> hackerrank
+    
+Input:
+
+a = input()
+b = input()
+print ("Expected Strings are {}{}".format(a,b))
+
+Output:
+
+vishal
+jagatap
+Expected Strings are vishaljagatap
