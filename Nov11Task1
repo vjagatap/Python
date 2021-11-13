@@ -1,0 +1,29 @@
+
+##collect one string from user (input)
+#identify middle letter of the string
+
+x= input("Enter the string:\n")
+length= len(x)
+y= length // 2
+print("Middle letter of given sting is\n", x[y])
+
+
+output:
+====== RESTART: C:/Desktop to Laptop data/Python Software/11thNovTask1.py ======
+Enter the string:
+JOY
+Middle letter of given sting is
+ O
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/11thNovTask1.py ======
+Enter the string:
+django
+Middle letter of given sting is
+ n
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/11thNovTask1.py ======
+Enter the string:
+groovyy
+Middle letter of given sting is
+ o
+>>> 
