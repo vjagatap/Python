@@ -1,0 +1,24 @@
+Task 1:
+
+collect one number from user, check whether the number is positive or negative
+
+
+code:
+
+num =int(input("please enter a number:"))
+
+if (num%2) == 0:
+    print("Entered No. is Even")
+else:
+    print("Entered No. is Odd")
+    
+
+Output:
+
+====== RESTART: C:/Desktop to Laptop data/Python Software/22ndNovTask1.py ======
+please enter a number:2
+Entered No. is Even
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/22ndNovTask1.py ======
+please enter a number:3
+Entered No. is Odd
