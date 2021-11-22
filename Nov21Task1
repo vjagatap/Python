@@ -1,0 +1,20 @@
+Task 1:
+collect one number from user, check whether the number is positive or negative
+
+Code:
+
+n = float(input("Enter a number: "))
+if n > 0:
+ print("Positive number")
+elif n == 0:
+ print("Zero")
+else:
+ print("Negative number")
+ 
+ 
+ Output:
+ 
+ ====== RESTART: C:/Desktop to Laptop data/Python Software/22ndNovTask2.py ======
+Enter a number: -1
+Negative number
+>>> 
