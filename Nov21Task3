@@ -1,0 +1,38 @@
+Task3:
+
+collect one string from user, check whether the string is palindrome or not
+
+
+
+Code:
+
+
+my_str = input("Enter a string:")
+
+my_str = my_str.casefold()
+
+rev_str = reversed(my_str)
+
+if list(my_str) == list(rev_str) :
+     print("It is palindrome")
+else :
+
+    print("It is not palindrome")
+    
+    
+    
+Output:
+
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask3.py ======
+Enter a string:faf
+It is palindrome
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask3.py ======
+Enter a string:fab
+It is not palindrome
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask3.py ======
+Enter a string:FAF
+It is palindrome
+>>> 
+
