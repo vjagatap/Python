@@ -1,0 +1,32 @@
+Task6:
+#get one string from user
+#check whether length of the string is odd or even
+
+
+****************************************************************************
+
+Code:
+
+num = (input("Enter a number: "))
+
+if (len(num)% 2) == 0:
+  print("{0} is Even". format(num))
+else:
+  print("{0} is Odd". format(num))
+  
+***************************************************************************
+
+Output:
+
+============================================ RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask6.py ============================================
+Enter a number: hi
+hi is Even
+>>> 
+============================================ RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask6.py ============================================
+Enter a number: hello
+hello is Odd
+>>> 
+============================================ RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask6.py ============================================
+Enter a number: HELLO
+HELLO is Odd
+>>> 
