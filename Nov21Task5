@@ -1,0 +1,45 @@
+Task5:
+#Get one string from user
+#Find the middle letter
+#find ascii value for the middle letter
+#check whether ascii value is odd or even
+
+********************************************************************************************************************
+Code:
+
+
+my_str = input("Enter the String:")
+
+middle_index = len(my_str) // 2
+
+print(my_str[middle_index])
+
+print("ASCII Value", ord(my_str[middle_index]))
+
+
+c= ord(my_str[middle_index])
+
+if c%2 == 0 :
+    
+    print(c, "Even No.")
+
+else:
+ print(c, "Odd No.")
+
+*********************************************************************************************************************
+
+Output:
+
+
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask5.py ======
+Enter the String:vishal
+h
+ASCII Value 104
+104 Even No.
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask5.py ======
+Enter the String:RAM
+A
+ASCII Value 65
+65 Odd No.
+>>> 
