@@ -1,0 +1,48 @@
+Task4:
+
+#Get one string from user
+#extract middle letter of the string
+#check whether middle letter is vowel or no
+
+
+
+Code:
+
+my_str = input("Enter the String:")
+
+middle_index = len(my_str) // 2
+
+print(my_str[middle_index])
+
+
+if(my_str[middle_index] =='A' or my_str[middle_index]=='a' or my_str[middle_index]=='E' or my_str[middle_index] =='e' or my_str[middle_index]=='I'
+ or my_str[middle_index]=='i' or my_str[middle_index]=='O' or my_str[middle_index]=='o' or my_str[middle_index]=='U' or my_str[middle_index]=='u'):
+    print(my_str[middle_index], "is a Vowel")
+
+else:
+        print(my_str[middle_index], " is not vowel")
+     
+     
+     
+        
+Output:
+
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask4.py ======
+Enter the String:FAF
+A
+A is a Vowel
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask4.py ======
+Enter the String:joy
+o
+o is a Vowel
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask4.py ======
+Enter the String:CAP
+A
+A is a Vowel
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask4.py ======
+Enter the String:Vishal
+h
+h  is not vowel
