@@ -1,0 +1,99 @@
+Task7:
+#Get one mark from student
+#mark 0 to 100 otherwise invalid mark
+
+#50 + PASS otherwise FAIL
+#90 to 100 ===> A  ==> Even + Odd -
+#80 to 89 ===> B
+#70 to 79 ===> C
+#60 to 69 ===> D
+#50 to 59 ===> E
+
+#0 to 49 ===> FAIL
+
+
+#93 ===> A-
+#99 ===> A-
+#88 ====> B+
+
+#78
+
+#VALID MARK
+#PASS MARK
+#C+
+
+******************************************************************************************************************
+Code:
+
+
+X= int(input('Enter the mark:'))
+
+if X>0 and X<=100:
+    print("Mark is Valid")
+    if X>=50:
+        print('Pass Mark')
+        if X>=90 and X%2 == 0:
+            print('A+')
+        elif X >= 90 and X % 2 != 0:
+            print('A-')
+        elif X>=80 and X%2 == 0:
+            print('B+')
+        elif X>=80 and X%2 != 0:
+            print('B-')
+        elif X>=70 and X%2 == 0:
+            print('C+')
+        elif X>=70 and X%2 != 0:
+            print('C-')
+        elif X>=60 and X%2 == 0:
+            print('D+')
+        elif X>=60 and X%2 != 0:
+            print('D-')
+        elif X>=50 and X%2 == 0:
+            print('E+')
+        elif X>=50 and X%2 != 0:
+            print('E-')
+            
+    else:
+        print('Fail Mark')
+else:
+    print('Mark is invalid')
+    
+*****************************************************************************************************************************
+
+Output:
+
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask7.py ======
+Enter the mark:10
+Mark is Valid
+Fail Mark
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask7.py ======
+Enter the mark:55
+Mark is Valid
+Pass Mark
+E-
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask7.py ======
+Enter the mark:68
+Mark is Valid
+Pass Mark
+D+
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask7.py ======
+Enter the mark:72
+Mark is Valid
+Pass Mark
+C+
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask7.py ======
+Enter the mark:87
+Mark is Valid
+Pass Mark
+B-
+>>> 
+====== RESTART: C:/Desktop to Laptop data/Python Software/21thNovTask7.py ======
+Enter the mark:100
+Mark is Valid
+Pass Mark
+A+
+>>> 
