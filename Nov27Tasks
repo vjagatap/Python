@@ -1,0 +1,52 @@
+ Task1:
+ 
+ 
+ Code:
+ 
+ x=[2,3,4,6,7,8,9,10,11]
+
+evenlist= []
+oddlist= []
+
+
+for i in x:
+    if(i%2 == 0):
+        evenlist.append(i)
+    else:
+        oddlist.append(i)
+
+print(evenlist)
+print("No. of even numbers are:",len(evenlist))
+print(oddlist)
+print("No. of even numbers are:",len(oddlist))
+
+Output:
+
+======== RESTART: C:/Desktop to Laptop data/Python Software/27NovTask.py =======
+[2, 4, 6, 8, 10]
+No. of even numbers are: 5
+[3, 7, 9, 11]
+No. of even numbers are: 4
+
+********************************************************************************************************************************
+
+Task2:
+
+Code:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
