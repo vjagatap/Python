@@ -34,6 +34,37 @@ Task2:
 
 Code:
 
+x=[-2,-3,4,5,6,8,9,0,0,1,2,3,5,-5,-6]
+
+poslist= []
+neglist= []
+zerolist= []
+
+for i in x:
+    if i>0:
+        poslist.append(i)
+    elif i<0:
+        neglist.append(i)
+    elif i==0:
+        zerolist.append(i)
+print(poslist)
+print("No. of positive numbers in the list:",len(poslist))
+print(neglist)
+print("No. of negative numbers in the list:",len(neglist))
+print(zerolist)
+print("No. of positive numbers in the list:",len(zerolist))
+
+Output:
+
+======== RESTART: C:/Desktop to Laptop data/Python Software/27NovTask.py =======
+[4, 5, 6, 8, 9, 1, 2, 3, 5]
+No. of positive numbers in the list: 9
+[-2, -3, -5, -6]
+No. of negative numbers in the list: 4
+[0, 0]
+No. of positive numbers in the list: 2
+
+***********************************************************************************************************************************************
 
 
 
