@@ -1,5 +1,5 @@
  Task1:
- 
+ #Separate no. of even and odd numbers
  
  Code:
  
@@ -31,6 +31,7 @@ No. of even numbers are: 4
 ********************************************************************************************************************************
 
 Task2:
+#Separate no. of positive and negative numbers
 
 Code:
 
@@ -66,12 +67,35 @@ No. of positive numbers in the list: 2
 
 ***********************************************************************************************************************************************
 
+Task3:
+#Separate no. of palidrome and non-palindrome letters
+Code:
 
+x=["mom", "dad", "king", "python", "malayalam", "123321", "123"]
 
+palindrome= []
+nonpalindrome= []
 
+for i in x:
+    if i==i[::-1]:
+        palindrome.append(i)
+    else:
+        nonpalindrome.append(i)
+        
+print(palindrome)
+print("No. of palidrome letters in the list:",len(palindrome))
+print(nonpalindrome)
+print("No. of non-palidrome numbers in the list:",len(nonpalindrome))
 
+Output:
 
+======== RESTART: C:/Desktop to Laptop data/Python Software/27NovTask.py =======
+['mom', 'dad', 'malayalam', '123321']
+No. of palidrome letters in the list: 4
+['king', 'python', '123']
+No. of non-palidrome numbers in the list: 3
 
+********************************************************************************************************************************
 
 
 
